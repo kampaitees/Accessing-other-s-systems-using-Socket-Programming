@@ -49,7 +49,7 @@ These are same throughout the same country but can change from country to countr
 Thses are the category of IP address which changes frequently
 If you see your IP address using "ipconfig" and if you restart your system and you see that the IP is changed this time.
 
-## Difference between IP and Port number
+### Difference between IP and Port number
 We can understand this difference better using an analogy
 IP address is nothing but the address of the city or street while Port number is the address of out house in which we are living
 
@@ -70,8 +70,9 @@ After binding the socket we will send the data to the client using the command
 
 After this, the client will be sending the data so we will be listening it with the comamnd and will receive the data sent by the client
 
-`socket.listen()`
-`socket.recv()`
+```socket.listen()```
+
+```socket.recv()```
 
 If conversation is over then we can close the connection using the command
 

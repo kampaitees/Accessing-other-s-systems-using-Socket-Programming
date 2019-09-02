@@ -9,7 +9,7 @@ It is an unique set of strings separated by full stops('.') such that two comput
 Protocol over the network. 
 They are of two types:
 ```
-                                                IP
+ ##                                             IP
                                                `   `
                                               `     `
                                              `       `

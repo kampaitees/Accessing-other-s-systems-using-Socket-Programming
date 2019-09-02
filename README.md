@@ -1,4 +1,4 @@
-# Ethical-Hacking-using-Socket-Programming
+# Accessing Other's System using Socket Programming
 
 <p align="center">
   <img src = "images/ethical_hacker.jpg" />

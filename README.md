@@ -34,8 +34,9 @@ It is the IP address which is provided by different routers or wifi
 
 ### To see IP address of any website like Google, Facebook etc...
 #### Type following on your terminal/command prompt
-` ping facebook.com `
-` ping google.com `
+``` ping facebook.com ```
+
+``` ping google.com ```
 
 ### IP Address also classified into
 ```

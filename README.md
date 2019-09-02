@@ -1,7 +1,9 @@
 # Ethical-Hacking-using-Socket-Programming
+
 <p align="center">
   <img src = "images/ethical_hacker.jpg" />
 </p>
+
 ## Socket
 Is one of the endpoint of two-way connection link between two programs running on the network. A socket is bound to a port number so
 that TCP layer can identify the application to which the data is destined to be. An endpoint is a combination of IP address and port number.

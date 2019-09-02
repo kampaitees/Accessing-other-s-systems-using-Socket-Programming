@@ -61,6 +61,10 @@ suppose we are using Skype & Netflix in our system then how TCP layer will know 
 
 ### How does Socket works
 
+<p align="center">
+  <img src = "images/socket.png" />
+</p>
+
 ` socket.socket() `
 
 Using this command a socket will be created now we have to bind this socket to an IP address as well as a port number which can be

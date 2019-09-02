@@ -130,6 +130,8 @@ But there is one more problem here that as IP addresses are dynamic so when I wi
 
 ## Running the files
   - Run [Server.py](https://github.com/kampaitees/Ethical-Hacking-using-Socket-Programming/blob/master/Single%20Client(Reverse%20shell%20V1)/server.py) file on terminal/cmd
+      `python server.py`
   - Run [Client.py](https://github.com/kampaitees/Ethical-Hacking-using-Socket-Programming/blob/master/Single%20Client(Reverse%20shell%20V1)/client.py) file on another terminal/cmd
+      `python client.py`
   
 Now whatever you will type on your system will be executed on your friend/victim's system and you have full access to his/her system

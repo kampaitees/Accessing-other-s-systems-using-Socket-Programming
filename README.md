@@ -65,9 +65,11 @@ suppose we are using Skype & Netflix in our system then how TCP layer will know 
   <img src = "images/socket.png" />
 </p>
 
-` socket.socket() `
 
-Using this command a socket will be created now we have to bind this socket to an IP address as well as a port number which can be
+### Commands for creating Sockets and communicate with other systems
+
+` socket.socket() `
+Using the above command a socket will be created now we have to bind this socket to an IP address as well as a port number which can be
 done using
 
 `socket.bind(host, port)`
@@ -97,10 +99,10 @@ All the steps are:
 ## How to connect with other System using Socket programming
 
 There are two ways
-```                                                                  |
-                                                              --------------
-                                                             |              |
-                                                           Direct        Reverse(used by Hackers)
+```                                                  |
+                                               -------------- 
+                                              |              |
+                                           Direct        Reverse(used by Hackers)
 ```
 
 ### Direct Connection

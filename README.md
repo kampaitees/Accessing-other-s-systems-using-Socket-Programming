@@ -99,10 +99,10 @@ All the steps are:
 ## How to connect with other System using Socket programming
 
 There are two ways
-```                                                  |
-                                               -------------- 
-                                              |              |
-                                           Direct        Reverse(used by Hackers)
+```                                             
+                                          ------|------- 
+                                         |              |
+                                      Direct        Reverse(used by Hackers)
 ```
 
 ### Direct Connection

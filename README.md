@@ -61,6 +61,10 @@ IP address is nothing but the address of the city or street while Port number is
 
 suppose we are using Skype & Netflix in our system then how TCP layer will know to whom it has to deliver the data i.e. to which application(whether Skype or Netflix) it has to deliver a particular data, so using port number it can distinguish between one or more application where the data is to be delivered.  
 
+### Finding Port number 
+First open your command prompt and run as admininstrator and type the followng command on cmd/terminal
+``` netstat -a -b -n ```
+
 ### How does Socket works
 
 <p align="center">

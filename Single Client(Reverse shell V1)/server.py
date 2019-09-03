@@ -59,5 +59,3 @@ def main():
 
 #Calling all the function created above
 main()
-import socket
-import sys

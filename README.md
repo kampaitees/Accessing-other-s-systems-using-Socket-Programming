@@ -1,8 +1,10 @@
-# Accessing Other's System using Socket Programming
-
+# Ethical Hacking(Basic) using Socket Programming
 <p align="center">
   <img src = "images/ethical_hacker.jpg" />
 </p>
+
+Hi there fellows. In this post I am going to take you on an adventure with python sockets. They are the real backbones behind web browsing. In simpler terms there is a server and a client. We will deal with both of them,let's first explore some keyworkds related
+to Socket Programming. So lets first begin by seeing what exactly is a Socket.
 
 ## Socket
 Spcket is one of the endpoint of two-way connection link between two programs running on the network. A socket is bound to a port
@@ -69,6 +71,10 @@ First open your command prompt and run as admininstrator and type the followng c
   <img src = "images/IMG20190903194432.jpg" />
 </p>
 
+### Server
+Let me explain a little bit about a server. A server has a bind() method which binds it to a specific IP and port so that it can
+listen to incoming requests on that IP and port. Next a server has a listen() method which puts the server into listen mode. This allows the server to listen to incoming connections. And lastly a server has an accept() and close() method. The accept method initiates a connection with the client and the close method closes the connection with the client.
+
 ### How does Socket works
 
 <p align="center">
@@ -77,8 +83,11 @@ First open your command prompt and run as admininstrator and type the followng c
 
 ### Commands for creating Sockets and communicate with other systems
 
-` socket.socket() `
-Using the above command a socket will be created now we have to bind this socket to an IP address as well as a port number which can be
+` socket.socket(socket.AF_INET, socket.SOCK_STREAM) `
+
+Here we made a socket instance and passed it two parameters. The first parameter is AF_INET and the second one is SOCK_STREAM. AF_INET refers to the address family ipv4. ipv6 requires something different but we won’t be focusing on it. Secondly the SOCK_STREAM means connection oriented TCP protocol. Client will connect to a server using this socket.
+
+Using the above command as a socket is created now we have to bind this socket to an IP address as well as a port number which can be
 done using
 
 `socket.bind(host, port)`
@@ -144,3 +153,5 @@ But there is one more problem here that as IP addresses are dynamic so when I wi
       `python client.py`
   
 Now whatever you will type on your system will be executed on your friend/victim's system and you have full access to his/her system
+
+I hope this intro to sockets in python was digestible for beginners. In my server and client script I have also included exception handling as it is good style of writing code. Now I hope that you have a solid understanding about the working of sockets in python. However there’s a lot more to it. For further study i recommend the Official python docs. If you liked this post then don’t forget to share it on facebook, tweet it on twitter, share it on linkedin and follow my gtihub.

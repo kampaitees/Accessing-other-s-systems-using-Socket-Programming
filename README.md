@@ -64,13 +64,16 @@ suppose we are using Skype & Netflix in our system then how TCP layer will know 
 ### Finding Port number 
 First open your command prompt and run as admininstrator and type the followng command on cmd/terminal
 ``` netstat -a -b -n ```
+<p align="center">
+  <img src = "images/IMG20190903194406.jpg" />
+  <img src = "images/IMG20190903194432.jpg" />
+</p>
 
 ### How does Socket works
 
 <p align="center">
   <img src = "images/socket.png" />
 </p>
-
 
 ### Commands for creating Sockets and communicate with other systems
 
